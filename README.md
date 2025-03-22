@@ -81,6 +81,7 @@ assign H=~(A^B);
 endmodule
  ```
 **Logic symbol & Truthtable**
+```
 AND GATE
 ![Screenshot 2025-03-22 204704](https://github.com/user-attachments/assets/5c4a438a-cd88-4257-b959-d813cd940fc3)
 
@@ -98,7 +99,7 @@ NOR GATE
 
 XNOR GATE
 ![Screenshot 2025-03-22 210545](https://github.com/user-attachments/assets/53db2a6d-464a-41fa-a04c-f2238e02f09a)
-
+```
 **RTL realization Output:** 
 
 **RTL**
