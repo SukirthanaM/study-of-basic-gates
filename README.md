@@ -109,5 +109,5 @@ XNOR GATE
 
 
 **Result:**
-          Thus the program is verified and executed successfully
+          Thus, the program is verified and executed successfully
 
