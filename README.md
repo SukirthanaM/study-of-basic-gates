@@ -66,13 +66,44 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
+ Developed by: Sukirthana.M
+ RegisterNumber: 212224220112
+```
+module EXP1(A,B,C,D,E,F,G,H);
+input A,B;
+output C,D,E,F,G,H;
+assign C=A&B;
+assign D=A|B;
+assign E=A^B;
+assign F=~(A&B);
+assign G=~(A|B);
+assign H=~(A^B);
+endmodule
+ ```
 **Logic symbol & Truthtable**
+AND GATE
+![Screenshot 2025-03-22 204704](https://github.com/user-attachments/assets/5c4a438a-cd88-4257-b959-d813cd940fc3)
+
+OR GATE
+![Screenshot 2025-03-22 204825](https://github.com/user-attachments/assets/a36ff2a3-7a95-4c49-bd2a-569ab8b8302d)
+
+XOR GATE
+![Screenshot 2025-03-22 205000](https://github.com/user-attachments/assets/b02bede2-345e-4914-adc1-1426e4a661d5)
+
+NAND GATE
+![Screenshot 2025-03-22 210350](https://github.com/user-attachments/assets/f02b2be8-6637-4a48-8b31-a17b47ded54e)
+
+NOR GATE
+![Screenshot 2025-03-22 210452](https://github.com/user-attachments/assets/e65beeda-433f-42a1-a2e6-8480406267db)
+
+XNOR GATE
+![Screenshot 2025-03-22 210545](https://github.com/user-attachments/assets/53db2a6d-464a-41fa-a04c-f2238e02f09a)
 
 **RTL realization Output:** 
 
 **RTL**
+![Screenshot (58)](https://github.com/user-attachments/assets/cf06252b-f3fc-4d01-a109-b8f63b68bb52)
+
 
 **Result:**
 
