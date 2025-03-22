@@ -69,15 +69,15 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by: Sukirthana.M
  RegisterNumber: 212224220112
 ```
-module EXP1(A,B,C,D,E,F,G,H);
-input A,B;
-output C,D,E,F,G,H;
-assign C=A&B;
-assign D=A|B;
-assign E=A^B;
-assign F=~(A&B);
-assign G=~(A|B);
-assign H=~(A^B);
+module EXP1(a,b,c,d,e,f,g,h);
+input a,b;
+output c,d,e,f,g,h;
+assign c=a&b;
+assign d=a|b;
+assign e=a^b;
+assign f=~(a&b);
+assign g=~(a|b);
+assign h=~(a^b);
 endmodule
  ```
 **Logic symbol & Truthtable**
@@ -101,11 +101,13 @@ XNOR GATE
 ![Screenshot 2025-03-22 210545](https://github.com/user-attachments/assets/53db2a6d-464a-41fa-a04c-f2238e02f09a)
 
 **RTL realization Output:** 
+![Screenshot (55)](https://github.com/user-attachments/assets/ca693b23-5b8f-4479-a46d-762df906e126)
+
 
 **RTL**
 ![Screenshot (58)](https://github.com/user-attachments/assets/cf06252b-f3fc-4d01-a109-b8f63b68bb52)
 
 
 **Result:**
-
+          Thus the program is verified and executed successfully
 
